@@ -1,0 +1,95 @@
+body {
+    background-color:rgb(227, 188, 139)  ;
+    font-family:monospace;
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    display: none;
+}
+
+
+#btn1 {
+position: relative;
+bottom: 350px;
+width: 130px;
+height: 50px;
+border: black solid 2px;
+border-radius: 10px;
+background-color:aliceblue;
+font-size: 15px;
+
+}
+
+#btn2 {
+    position: relative;
+    top: 100px;
+    width: 130px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+
+#btn3 {
+    position: relative;
+    top: 200px;
+    width: 130px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+#current-score-text {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.current-score-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#current-score-text{
+    position: relative;
+    top: 300px;
+}
+
+
